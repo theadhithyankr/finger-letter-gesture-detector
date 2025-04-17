@@ -25,7 +25,7 @@ pip install opencv-python mediapipe
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your_username/HandGestureRecognition.git
+git clone https://github.com/theadhithyankr/Finger-Letter-Gesture-Detector.git
 cd HandGestureRecognition
 ```
 
