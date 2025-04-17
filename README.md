@@ -1,6 +1,4 @@
-For your GitHub repository containing this code, you could name it something like "HandGestureRecognition" or "FingerLetterDetection". Here's a basic README.md file you could include in your repository:
 
----
 
 # Hand Gesture Recognition
 
