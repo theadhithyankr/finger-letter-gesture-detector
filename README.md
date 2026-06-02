@@ -1,56 +1,30 @@
+# Finger Letter Gesture Detector
 
+Computer vision project for detecting alphabet hand gestures from finger movements.
 
-# Hand Gesture Recognition
+## Key Features
+- Computer vision project for detecting alphabet hand gestures from finger movements
+- Backend/runtime files are documented alongside the frontend or app layer when the repository includes them.
 
-This project utilizes the [MediaPipe](https://google.github.io/mediapipe/) library and OpenCV to detect hand gestures in real-time using a webcam.
+## Tech Stack
+- Python
 
-## Overview
+## Project Structure
+- Key files: requirements.txt.
 
-The code in this repository analyzes hand gestures captured through the webcam in real-time. It detects landmarks on the hand and calculates distances between specific landmarks to identify gestures.
-
-## Requirements
-
-- Python 3.x
-- OpenCV
-- MediaPipe
-
-Install the required packages using the following command:
-
+## Setup and Run
 ```bash
-pip install opencv-python mediapipe
+git clone https://github.com/theadhithyankr/finger-letter-gesture-detector.git
+cd finger-letter-gesture-detector
+python -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+pip install -r requirements.txt
+python app.py
 ```
 
-## Usage
+## What This Project Demonstrates
+- Connecting application interfaces to Python services, ML workflows, or backend APIs.
+- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/theadhithyankr/Finger-Letter-Gesture-Detector.git
-cd Finger-Letter-Gesture-Detector
-```
-
-2. Run the script:
-
-```bash
-python hand_gesture_recognition.py
-```
-
-3. Point your hand towards the webcam and make gestures to see real-time recognition.
-
-## Features
-
-- Detects and displays landmarks on the hand.
-- Identifies finger positions and calculates distances to recognize gestures.
-- Displays the recognized finger and associated letter in real-time.
-
-## Contributions
-
-Contributions are welcome! If you find any issues or want to enhance the functionality, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
- 
+## Repository
+- GitHub: https://github.com/theadhithyankr/finger-letter-gesture-detector
