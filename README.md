@@ -29,22 +29,22 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- Hand gesture detection.py
 |-- LICENSE.txt
 |-- README.md
 |-- requirements.txt
-`
+```
 
 ## Setup
 
-`ash
+```bash
 python -m venv .venv
 .\.venv\Scripts\activate
 pip install -r requirements.txt
 python Hand gesture detection.py
-`
+```
 
 ## What This Project Demonstrates
 
